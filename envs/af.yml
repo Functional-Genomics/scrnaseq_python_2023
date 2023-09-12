@@ -1,0 +1,27 @@
+name: af
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - ebi-gene-expression-group
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - alevin-fry=0.8.2=h4ac6f70_0
+  - boost-cpp=1.78.0=h5adbc97_2
+  - bzip2=1.0.8=h7f98852_4
+  - icu=70.1=h27087fc_0
+  - libgcc-ng=13.1.0=he5830b7_0
+  - libgomp=13.1.0=he5830b7_0
+  - libhwloc=2.9.1=hd6dc26d_0
+  - libiconv=1.17=h166bdaf_0
+  - libjemalloc=5.3.0=hcb278e6_0
+  - libstdcxx-ng=13.1.0=hfd8a6a1_0
+  - libxml2=2.10.3=hca2bb57_4
+  - libzlib=1.2.13=hd590300_5
+  - salmon=1.10.2=hecfa306_0
+  - simpleaf=0.14.1=h4ac6f70_0
+  - tbb=2021.9.0=hf52228f_0
+  - xz=5.2.6=h166bdaf_0
+  - zstd=1.5.2=hfc55251_7
+prefix: /hps/nobackup/irene/ma/isl/envs_test/af
