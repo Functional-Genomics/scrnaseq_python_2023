@@ -1,4 +1,4 @@
-name: sc_course_intg
+name: sc_py_intg
 channels:
   - bioconda
   - conda-forge
