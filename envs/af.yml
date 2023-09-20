@@ -24,4 +24,4 @@ dependencies:
   - tbb=2021.9.0=hf52228f_0
   - xz=5.2.6=h166bdaf_0
   - zstd=1.5.2=hfc55251_7
-prefix: /hps/nobackup/irene/ma/isl/envs_test/af
+
