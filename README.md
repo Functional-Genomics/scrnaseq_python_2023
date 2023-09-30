@@ -1,7 +1,22 @@
 # Single-cell RNA-seq analysis using Python 2023 
 Materials for the EBI course "Single-cell RNA-seq analysis using Python 2023"[https://www.ebi.ac.uk/training/events/single-cell-rna-seq-analysis-2023/]
 
-The repo contains: 
+
+## Table of contents
+ * [Overview of the course](#overview)
+ * [Repo contents](#repocontents)
+ * [Day two – Tuesday 19 September 2023 – Processing data](#Daytwo–Tuesday19September2023–Processingdata)
+    * From raw reads to expression matrix 
+ * [Day three – Wednesday 20 September 2023 – Analysing data](#Daythree–Wednesday20September2023–Analysingdata)
+    * Dimensionality reduction, clustering, and annotation
+    * Batch correction and data integration
+ * [Day five – Friday 22 September 2023 – Putting it into practice](#Dayfive–Friday22September2023–Puttingitintopractice)
+
+## Overview
+
+This repositoty contains all the hands-on materials taught in the single-cell RNA-seq analysis using Python 2023 course. In this course we learn how to analyse single-cell data starting from raw reads until the cell-type annotation of our data. Moreover, we explore and perform batch correction and data integration for our data. The hands-on materials include practicals(demos), exercises and their answers, and projects for more hands-on practice.
+
+# Repo contents 
 
 - bin  : scripts necessary for preprocessing analysis
 - envs : yml files, environments used for the practicals
