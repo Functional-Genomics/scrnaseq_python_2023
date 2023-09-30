@@ -25,17 +25,24 @@ This repositoty contains all the hands-on materials taught in the course "Single
 
 ### From raw reads to feature selection
 
-practical_1 is a follow along tutorial for the preprocessing analysis of single-cell data. This includes the following steps : 
+practical_1 notebook is a follow along tutorial for the preprocessing analysis of single-cell data. 
+It includes the following steps : 
 
 1. Raw Data Processing 
-   1.1 Build the reference index
-   1.2 Perform mapping and quantification (alevin fry and simpleleaf wrapper)
+   * Build the reference index (pyroe and salmon)
+   * Perform mapping and quantification (alevin and alevin-fry)
+   * remove empty drops (bioconductor-dropletutils) 
+   * Alternative method for raw data preprocessing (simpleleaf method)
 2. Quality Control (QC)
-   2.1 Filtering low quality barcodes
-   2.2 Correction of ambient RNA
-   2.3 Doublet Detection
-4. Normalisation
-5. Feature Selection 
+   * Filtering low quality barcodes(scanpy)
+   * Correction of ambient RNA(SoupX)
+   * Doublet Detection(scDblFinder)
+4. Normalisation methods
+   * library size 10e4 and log-transform(scanpy)
+   * scran-normalisation(scran)
+6. Feature Selection
+   * Deviance (scry)
+   * Variance(scanpy)
 
 ### Dimensionality reduction, clustering, and annotation
 
