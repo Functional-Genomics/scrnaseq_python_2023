@@ -1,16 +1,15 @@
 # Single-cell RNA-seq analysis using Python 2023 
-[Materials for the EBI course "Single-cell RNA-seq analysis using Python 2023"](https://www.ebi.ac.uk/training/events/single-cell-rna-seq-analysis-2023/)
+Materials for the EBI course ["Single-cell RNA-seq analysis using Python 2023"](https://www.ebi.ac.uk/training/events/single-cell-rna-seq-analysis-2023/)
 
+Materials adapted from: [Single-cell best practices](www.sc-best-practices.org)
 
 ## Table of contents
  * [Overview](#overview)
  * [Repo contents](#repocontents)
- * [Day two – Tuesday 19 September 2023 – Processing data](#Daytwo–Tuesday19September2023–Processingdata)
-    * [From raw reads to expression matrix](#Fromrawreadstoexpressionmatrix) 
- * [Day three – Wednesday 20 September 2023 – Analysing data](#Daythree–Wednesday20September2023–Analysingdata)
-    * [Dimensionality reduction, clustering, and annotation](#Dimensionalityreduction,clustering,andannotation)
-    * [Batch correction and data integration](#Batchcorrectionanddataintegration)
- * [Day five – Friday 22 September 2023 – Putting it into practice](#Dayfive–Friday22September2023–Puttingitintopractice)
+ * [From raw reads to feature selection](#Fromrawreadstofeatureselection)
+ * [Dimensionality reduction, clustering, and annotation](#Dimensionalityreduction,clustering,andannotation)
+ * [Batch correction and data integration](#Batchcorrectionanddataintegration)
+ * [Group Projects](#GroupProjects)
 
 ### Overview
 
@@ -24,29 +23,25 @@ This repositoty contains all the hands-on materials taught in the course "Single
 - practicals : jupyter notebooks for each practical( demo, follow along tutorial for each session)
 - projects : Coming soon
 
-### Day two – Tuesday 19 September 2023 – Processing data
-#### From raw reads to expression matrix
+### From raw reads to feature selection
 
 practical_1 is a follow along tutorial for the preprocessing analysis of single-cell data. This includes the following steps : 
 
-1. Raw Data Processing (
-a)Build the reference index,
-b)Perform mapping and quantification (alevin fry and simpleleaf wrapper)
+1. Raw Data Processing 
+   1.1 Build the reference index
+   1.2 Perform mapping and quantification (alevin fry and simpleleaf wrapper)
 2. Quality Control (QC)
-a)Filtering low quality barcodes
-b)Correction of ambient RNA
-c)Doublet Detection
-3. Normalisation
-4. Feature Selection 
+   2.1 Filtering low quality barcodes
+   2.2 Correction of ambient RNA
+   2.3 Doublet Detection
+4. Normalisation
+5. Feature Selection 
 
-### Day three – Wednesday 20 September 2023 – Analysing data
-#### Dimensionality reduction, clustering, and annotation
-#### Batch correction and data integration
+### Dimensionality reduction, clustering, and annotation
 
+### Batch correction and data integration
 
-
-
-### Day five – Friday 22 September 2023 – Putting it into practice
+### Group Projects 
 
 
 
